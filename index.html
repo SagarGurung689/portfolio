@@ -101,15 +101,24 @@
   
 
   <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  
+  <!-- Contact Info -->
+  <div class="contact-info">
+    <p>📧 Email: <a href="mailto:gurungy689@gmail.com">gurungy689@gmail.com</a></p>
+    <p>💻 GitHub: <a href="https://github.com/SagarGurung689" target="_blank">github.com/SagarGurung689</a></p>
+  </div>
+
+  <form action="https://formspree.io/f/xanbzeqd" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
 
   <!-- Footer -->
   <footer>
