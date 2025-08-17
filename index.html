@@ -1,23 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <meta name="description" content="A basic HTML boilerplate">
-    <meta name="author" content="Your Name">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <main>
-        <p>Welcome to wow Finstack Nepal.</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm Yam Bahadur Gurung</h2>
+    <p>
+      A passionate <strong>Flutter Developer</strong> with 2.5 years of experience 
+      in building scalable, high-performance, and user-friendly mobile applications 
+      for both Android and iOS platforms.
+    </p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </section>
+
+<!-- About Section -->
+<section class="about" id="about">
+  <h2>About Me</h2>
+  
+  <!-- Profile Image -->
+  <div class="profile-pic">
+    <img src="assets/pic.jpg" alt="Yam Bahadur Gurung">
+  </div>
+
+  <p>
+    I am a dedicated Flutter Developer with over 2.5 years of professional experience 
+    in creating cross-platform mobile applications. My expertise lies in designing 
+    intuitive UIs, integrating APIs, managing state with Bloc/Provider/Redux, and 
+    ensuring smooth app performance. I enjoy solving complex problems, optimizing 
+    apps for low-end devices, and collaborating with teams to deliver high-quality 
+    digital products.
+  </p>
+</section>
+
+  <!-- Portfolio Section -->
+<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <h2>Projects</h2>
+    <div class="portfolio-grid">
+      <!-- Project 1: Mindsetters -->
+      <div class="card">
+        <h3>Mindsetters</h3>
+        <p>
+          Mindsetters is an innovative online learning platform that enables 
+          students and educators to connect seamlessly. The app provides features 
+          such as <strong>online classes, digital payments, and assignment 
+          management</strong>, making education more accessible and interactive. 
+          I contributed as a Flutter Developer in building a smooth cross-platform 
+          experience with a focus on performance and user-friendly UI.
+        </p>
+        <a href="https://apps.apple.com/np/app/mindsetters/id6739630387" target="_blank" class="project-link">View on App Store</a>
+      </div>
+  
+      <!-- Project 2 -->
+      <div class="card">
+        <h3>Mero Rating</h3>
+        <p>
+            Mero Rating is a community-driven app that allows users to 
+            <strong>rate and review businesses around their nearby areas</strong>. 
+            The goal is to provide honest, unbiased reviews so that others can make 
+            informed decisions before trying a service. I worked on developing 
+            core features in Flutter, ensuring smooth navigation, location-based 
+            business listings, and real-time rating updates.
+          </p>
+          <a href="https://play.google.com/store/apps/details?id=com.scryptspider.meroRating" target="_blank" class="project-link">View on Play Store</a>
+      </div>
+  
+      <!-- Project 3 -->
+      <div class="card">
+        <h3>Loksewa Tyari</h3>
+        <p>
+          Loksewa Tyari is an educational app designed to help students prepare 
+          for <strong>Loksewa exams</strong> in Nepal. The platform provides 
+          various courses, study materials, and <strong>mock tests</strong> to 
+          simulate real exam conditions. It also offers premium features, giving 
+          access to high-quality preparation content and exclusive study resources. 
+          My role focused on building an intuitive learning experience and 
+          implementing the premium content flow in Flutter.
+        </p>
+        <a href="https://play.google.com/store/apps/details?id=com.neptechpal.loksewatayari" target="_blank" class="project-link">View on Play Store</a>
+   
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Yam Bahadur Gurung | All Rights Reserved</p>
+  </footer>
+
 </body>
 </html>
